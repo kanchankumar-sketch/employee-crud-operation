@@ -82,13 +82,9 @@ public class Employee implements Serializable {
 
 	@Override
 	public String toString() {
+		System.out.println("commiteed");
 		return "Employee [id=" + id + ", name=" + name + ", email=" + email + ", jobTitle=" + jobTitle + ", imageUrl="
 				+ imageUrl + ", employeeCode=" + employeeCode + "]";
 	}
 	
-	
-	
-	
-	
-
 }
